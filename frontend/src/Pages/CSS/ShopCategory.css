@@ -119,11 +119,18 @@
 
     .shopcategory-banner{
         width: 95%;
+        height: 30vh;
     }
 
     .shopcategory-products {
-        width: 95%;
+        width: 100%;
+        margin-top: 20px;
+      gap:5px;
+      row-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+
     }
+
     .shopcategory-loadmore{
         margin: 60px auto;
         width: 150px;
@@ -131,11 +138,18 @@
         font-size: 13px;
     }
 
+   .banner img{
+    display: none;
+   }
+.banner-text{
+    text-align: center;
+    margin-top: 20px;
+}
 }
 
-@media(max-width:800px){
+/* @media(max-width:800px){
     .shopcategory-products{
         grid-template-columns: 1fr 1fr;
     }
-}
+} */
 
