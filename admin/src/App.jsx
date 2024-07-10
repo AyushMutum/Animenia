@@ -11,7 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
-  const url = "http://localhost:8000";
+  const url = "https://animenia-backend.onrender.com";
   return (
     
     <div>
