@@ -117,7 +117,8 @@ export const ShopContext = createContext(null);
 const ShopContextProvider = (props) => {
   const [all_product, setAll_Product] = useState([]);
   const [cartItems, setCartItems] = useState({});
-  const url = "http://localhost:8000";
+  // const url = "http://localhost:8000";
+  const url = "https://animenia-backend.onrender.com";
   const [token, setToken] = useState("");
 
   const addToCart = async (itemId) => {
